@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Main {
 
     //Задание 1
-    public static void chekYear(int year) {
+    public static void checkYear(int year) {
         if (year >= 1584 && year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " год является високосным");
         } else {
@@ -50,9 +50,9 @@ public class Main {
     //Вывод значений
     public static void main(String[] args) {
 
-        chekYear(2020);
-        chekYear(2013);
-        chekYear(1992);
+        checkYear(2020);
+        checkYear(2013);
+        checkYear(1992);
 
         System.out.println(" ");
 
